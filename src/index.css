@@ -1,0 +1,386 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F3F3;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    margin-top: 2rem;
+}
+html {
+    height: 100%;
+}
+
+/* Nav */
+.navbar-nav li a {
+    color: #0F1D49;
+  }
+.navbar-item {
+    font-size: 1.5rem;
+}
+
+.navbar-nav {
+    border-bottom: 2px solid #0F1D49;
+  }
+
+nav li {
+    margin: 0 1rem;
+}
+
+.nav-link:hover { 
+    color: #E2E6F3;
+    transition: .25s ease-out;
+}
+
+/* Home Page */
+.welcome-header h1 {
+    color: #3c6e71;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;;
+}
+
+.home p {
+    padding-bottom: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.welcome-header p {
+    color: #3c6e71;
+    font-size: 30px;
+}
+
+.description {
+    font-size: 20px;
+}
+
+.home button { 
+    color:#3c6e71;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.home-image {
+    width: 50%; 
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+
+/* Checklist */ 
+.checklist-header {
+    color: #3c6e71;
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+.checklist-header p {
+    color: #3c6e71;
+    font-size: 25px;
+}
+
+.card {
+    background-color: #E1EBED; 
+    padding: .5rem;
+    margin: 1rem;  
+}
+
+.card-body{
+    margin: 1rem;
+    text-align: left;
+}
+
+.upload {
+    margin-bottom: 2rem;
+}
+
+.checklist {
+    margin: 1rem;
+}
+
+.checkbox input {
+    text-align: left;
+}
+
+.card img {
+    margin: 2rem;
+    padding: 1rem;
+}
+
+p.checkbox input {
+    padding: 5rem;
+    width: 10%;
+    padding: 0;
+}
+
+/* Job Log */
+
+.add-job-header {
+    color: #3c6e71;
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.job-track {
+    text-align: center;
+    padding-top: 6rem;
+}
+.job-track h2 { 
+    margin-top: 4rem;
+}
+.boxed {
+    border: 3px solid white;
+    box-sizing: content-box;
+    background-color: #3c6e71;
+    height: 10rem;
+    padding: 40px;
+}
+
+.boxed, .text { 
+    color: white;
+}
+.submit-job, input{ 
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
+.submit-job, .submit-button { 
+    margin-top: 20px;
+}
+
+/* Login */
+.login {
+    color: #3c6e71;
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.login-button {
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 16px;
+
+}
+.form-link {
+    color: #3c6e71;
+}
+
+/* Dashboard */ 
+.filter-container, .add-a-job {
+    margin: 1rem 5rem;
+    display: inline-block;
+}
+
+.add-a-job {
+  float: right;
+}
+
+.add-a-job button {
+    font-size: 12px;
+}
+
+.dashboard-header h1 {
+    color: #3c6e71;
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.table-container {
+    margin: 1.3rem;
+}
+
+table {
+    background: #e9f0f2;
+    width: 90%;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding-left: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    font-size: 14.9px;
+  }
+  
+th {
+  background-color: #a8bdc0; 
+}
+
+/* About */
+.about-header {
+    color: #3c6e71;
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bio-container {
+    margin: 1rem;
+}
+
+.bio-card {
+    flex-direction: column;
+    width: 100%;
+    background-color: #e9f0f2; 
+    margin-bottom: 1rem;
+}
+
+.bio-card img {
+    width: 100%;
+    flex-shrink: 1;
+    object-fit: cover;
+    border: 10px solid #e9f0f2;
+}
+
+.bio-text, .why-text {
+    text-align: center;
+    margin: auto;
+}
+
+.bio-text {
+    padding: .5rem;
+}
+
+.why-text p {
+    margin: 2rem;
+}
+
+/* Footer */
+
+footer {
+    margin: 1rem;
+}
+
+select {
+    margin: .5rem;
+}
+
+/* Profile */ 
+.profile-header {
+    color: #3c6e71;
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+.profile {
+    text-align: center;
+    padding: .5rem;
+}
+
+.profile-welcome {
+    font-size: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.profile button {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.dashboard-link p {
+    font-size: 20px;
+    margin-top: 3rem;
+}
+
+/* Media */ 
+
+@media (min-width: 576px) {
+    .home {
+        background-size: cover;
+    }
+
+    .bio-card {
+        flex-direction: column;
+    }
+
+    .bio-card img {
+        height: 54rem;
+    } 
+}
+
+@media (min-width: 768px) {
+    .home {
+        background-size: contain;
+    }
+
+    .bio-card {
+        flex-direction: column;
+        display: inline-flex;
+    }
+
+    .card {
+        margin: 4rem;  
+    }
+
+    .card-body {
+        margin: 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .home {
+        background-size: cover;
+    }
+
+    .bio-card {
+        margin: 1rem;
+    }
+
+    .bio-card img {
+        height: 20rem;
+    }
+
+    .bio-container {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home {
+        background-size: contain;
+    }
+    .bio-container {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.data-views { 
+    max-height: 800px;
+    max-width: 1300px;
+}

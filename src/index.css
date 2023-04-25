@@ -3,28 +3,38 @@
 }
 
 body {
-    background-color: #F3F3F3;
-    font-family: 'Poppins', sans-serif;
+    background-color: #f3f3f3;
+    font-family: 'Courier New', monospace;
+    margin: 0 50px;
+    color: #0F1D49;
 }
 
-h1 {
-    margin-top: 2rem;
-}
 html {
     height: 100%;
 }
 
 /* Nav */
+
 .navbar-nav li a {
     color: #0F1D49;
   }
 .navbar-item {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .navbar-nav {
-    border-bottom: 2px solid #0F1D49;
+    border-bottom: 2px solid #E2E6F3;
   }
+
+.navbar {
+    color: #0F1D49;
+    font-size: 16px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
 
 nav li {
     margin: 0 1rem;
@@ -36,42 +46,31 @@ nav li {
 }
 
 /* Home Page */
-.welcome-header h1 {
-    color: #3c6e71;
-    text-align: center;
-    font-size: 60px;
+.welcome-header {
+    margin-top: 2rem;
+    display: flex;
+    border-bottom: 2px solid #E2E6F3;
+}
+
+.title-first {
+    border-right: 2px solid #E2E6F3;
+    margin-bottom: 2rem;
+}
+
+.title-first h1 {
+    margin-left: 1rem;
     font-weight: bold;
-    margin-top: 1rem;
-    padding-top: 5rem;
-    padding-left: 5rem;
-    padding-right: 5rem;;
 }
 
-.home p {
-    padding-bottom: 2rem;
+.title-first img {
+    border-radius: 50%;
+}
+
+.title-container {
+    margin-left: 1rem;
     text-align: center;
-    margin-bottom: 3rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
 }
 
-.welcome-header p {
-    color: #3c6e71;
-    font-size: 30px;
-}
-
-.description {
-    font-size: 20px;
-}
-
-.home button { 
-    color:#3c6e71;
-    margin: 0;
-    position: absolute;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
 
 .home-image {
     width: 50%; 
@@ -80,201 +79,38 @@ nav li {
     margin: auto;
   }
 
-/* Checklist */ 
+.our-team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.our-team img {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+.image-container {
+    text-align: center;
+}
+
+/* Prompt */ 
 .checklist-header {
-    color: #3c6e71;
+    color: #0F1D49;
     text-align: center;
     margin-top: 1rem;
     padding-top: 1rem;
-}
-
-.checklist-header p {
-    color: #3c6e71;
-    font-size: 25px;
 }
 
 .card {
-    background-color: #E1EBED; 
-    padding: .5rem;
-    margin: 1rem;  
-}
-
-.card-body{
-    margin: 1rem;
-    text-align: left;
-}
-
-.upload {
-    margin-bottom: 2rem;
-}
-
-.checklist {
-    margin: 1rem;
-}
-
-.checkbox input {
-    text-align: left;
-}
-
-.card img {
-    margin: 2rem;
-    padding: 1rem;
-}
-
-p.checkbox input {
-    padding: 5rem;
-    width: 10%;
-    padding: 0;
-}
-
-/* Job Log */
-
-.add-job-header {
-    color: #3c6e71;
-    text-align: center;
-    margin-top: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.job-track {
-    text-align: center;
-    padding-top: 6rem;
-}
-.job-track h2 { 
-    margin-top: 4rem;
-}
-.boxed {
-    border: 3px solid white;
-    box-sizing: content-box;
-    background-color: #3c6e71;
-    height: 10rem;
-    padding: 40px;
-}
-
-.boxed, .text { 
-    color: white;
-}
-.submit-job, input{ 
-  width: 100%;
-  padding: 12px 20px;
-  box-sizing: border-box;
-}
-.submit-job, .submit-button { 
-    margin-top: 20px;
-}
-
-/* Login */
-.login {
-    color: #3c6e71;
-    text-align: center;
-    margin-top: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-}
-
-.login-button {
-    color: black;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 4px;
-    font-size: 16px;
-
-}
-.form-link {
-    color: #3c6e71;
-}
-
-/* Dashboard */ 
-.filter-container, .add-a-job {
-    margin: 1rem 5rem;
-    display: inline-block;
-}
-
-.add-a-job {
-  float: right;
-}
-
-.add-a-job button {
-    font-size: 12px;
-}
-
-.dashboard-header h1 {
-    color: #3c6e71;
-    text-align: center;
-    margin-top: 1rem;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-}
-
-.table-container {
-    margin: 1.3rem;
-}
-
-table {
-    background: #e9f0f2;
-    width: 90%;
-    margin: 0 auto;
-}
-
-th, td {
-    border: 1px solid black;
-    padding-left: 2px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-align: left;
-    font-size: 14.9px;
-  }
-  
-th {
-  background-color: #a8bdc0; 
-}
-
-/* About */
-.about-header {
-    color: #3c6e71;
-    text-align: center;
-    margin-top: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.bio-container {
-    margin: 1rem;
-}
-
-.bio-card {
-    flex-direction: column;
-    width: 100%;
-    background-color: #e9f0f2; 
-    margin-bottom: 1rem;
-}
-
-.bio-card img {
-    width: 100%;
-    flex-shrink: 1;
-    object-fit: cover;
-    border: 10px solid #e9f0f2;
-}
-
-.bio-text, .why-text {
-    text-align: center;
-    margin: auto;
-}
-
-.bio-text {
+    background-color: #E2E6F3;
+    border-color: #E2E6F3;
     padding: .5rem;
 }
 
-.why-text p {
-    margin: 2rem;
+.card li {
+    margin: 1rem;
 }
 
 /* Footer */
@@ -286,43 +122,25 @@ footer {
 select {
     margin: .5rem;
 }
-
-/* Profile */ 
-.profile-header {
-    color: #3c6e71;
-    text-align: center;
-    margin-top: 1rem;
-    padding-top: 1rem;
-}
-
-.profile {
-    text-align: center;
-    padding: .5rem;
-}
-
-.profile-welcome {
-    font-size: 20px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.profile button {
-    margin-top: 10px;
-    font-size: 16px;
-}
-
-.dashboard-link p {
-    font-size: 20px;
-    margin-top: 3rem;
-}
-
 /* Media */ 
 
-@media (min-width: 576px) {
+@media (min-width: 380px) {
     .home {
         background-size: cover;
     }
+    .title-first {
+        display:block;
+        padding: 1rem;
+    }
 
+    .title-first img {
+        width: 100%;
+    }
+
+    .title-first h1 {
+        margin-top: 1rem;
+    }
+  
     .bio-card {
         flex-direction: column;
     }
@@ -332,11 +150,18 @@ select {
     } 
 }
 
+@media (min-width: 580px) {
+    .title-container {
+        margin-top: 2rem;
+    }
+}
 @media (min-width: 768px) {
     .home {
         background-size: contain;
     }
-
+    .title-container {
+        margin-top: 4rem;
+    }
     .bio-card {
         flex-direction: column;
         display: inline-flex;
@@ -352,6 +177,24 @@ select {
 }
 
 @media (min-width: 992px) {
+    .title-first {
+        display:flex;
+        padding: 0;
+    }
+
+    .welcome-header img {
+        width: 50%;
+    }
+
+    .title-first h1 {
+        margin-right: 15rem;
+        margin-left: 1.5rem;
+        margin-top: 6rem;
+    }
+
+    .title-container {
+        margin-top: 5rem;
+    }
     .home {
         background-size: cover;
     }
@@ -369,6 +212,7 @@ select {
         flex-direction: row;
     }
 }
+
 
 @media (min-width: 1200px) {
     .home {

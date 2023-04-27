@@ -13,8 +13,7 @@ export default function Home() {
             </div>
             <div className="title-container">
               <p>A mobile application designed for you and your distant family members. With one-on-one chat prompts you can build
-             stronger relationships by having discussion topics made for you to get to know one another.
-             You can carry on what you learn about each other outside of Prompty and start bridging the intergenerational gap.</p>
+             stronger relationships by having discussion topics made for you to get to know one another and start bridging the intergenerational gap.</p>
             </div>
           </header>
           <h2 className="text-center mt-4">Our Team</h2>

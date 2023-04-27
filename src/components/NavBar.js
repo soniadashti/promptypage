@@ -13,7 +13,7 @@ function NavBar(props) {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-
+      <ul>
         <li className="navbar-item" style={{ display: "inline-block" }}>
               <Link
                 to="/home"
@@ -23,6 +23,7 @@ function NavBar(props) {
                 Prompty
               </Link>
             </li>
+          </ul>
         <button
           className="navbar-toggler"
           type="button"

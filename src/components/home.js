@@ -12,9 +12,9 @@ export default function Home() {
             <h1>Prompty</h1>
             </div>
             <div className="title-container">
-              <p>A mobile application with given weekly prompts for you and your 
-              distant family so you can chat easily, get to know more about one another, and fix the
-              intergenerational gap. Strengthen your family relationships with Prompty.</p>
+              <p>A mobile application designed for you and your distant family members. With one-on-one chat prompts you can build
+             stronger relationships by having discussion topics made for you to get to know one another.
+             You can carry on what you learn about each other outside of Prompty and start bridging the intergenerational gap.</p>
             </div>
           </header>
           <h2 className="text-center mt-4">Our Team</h2>

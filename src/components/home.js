@@ -12,10 +12,16 @@ export default function Home() {
             <h1>Prompty</h1>
             </div>
             <div className="title-container">
+              <h2>Never Be at a Loss for Words with Chat Prompts to Connect with Your Distant Family</h2>
               <p>A mobile application designed for you and your distant family members. With one-on-one chat prompts you can build
              stronger relationships by having discussion topics made for you to get to know one another and start bridging the intergenerational gap.</p>
             </div>
           </header>
+          <div className="screens">
+            <img src={`${process.env.PUBLIC_URL}/websiteimg/one.png`} alt="screen" className="screen-image"/>
+            <img src={`${process.env.PUBLIC_URL}/websiteimg/two.png`} alt="screen" className="screen-image"/>
+            <img src={`${process.env.PUBLIC_URL}/websiteimg/three.png`} alt="screen" className="screen-image"/>
+          </div>
           <h2 className="text-center mt-4">Our Team</h2>
           <div className="our-team">
           <div className="image-container">

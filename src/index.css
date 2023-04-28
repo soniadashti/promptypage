@@ -22,18 +22,15 @@ html {
     font-size: 2rem;
 }
 
-.navbar-nav {
-    border-bottom: 3px solid #f3f3f3;
-  }
-
 .navbar {
     color: #0F1D49;
-    font-size: 16px;
+    font-size: 20px;
     position: relative;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 999;
+    border-bottom: 2.5px solid #f3f3f3;
 }
 
 .navbar-nav li {
@@ -49,16 +46,14 @@ html {
 .welcome-header {
     margin-top: 2rem;
     display: flex;
-    border-bottom: 3px solid #F3F3F3;
 }
 
 .title-first {
-    border-right: 3px solid #F3f3f3;
+    border-right: 2.5px solid #F3f3f3;
     margin-bottom: 2rem;
 }
 
 .title-first h1 {
-    margin-left: 1rem;
     font-weight: bold;
 }
 
@@ -69,17 +64,24 @@ html {
 .title-container {
     margin-left: 1rem;
     text-align: center;
+    margin-bottom: 1rem;
 }
-
 
 .home-image {
     width: 50%; 
     height: auto;
     display: block;
     margin: auto;
-    box-shadow: 0 8px 6px -6px rgba(0,0,0,0.5);
+    box-shadow: 0 8px 6px 2px rgba(0,0,0,0.5);
     transform: translate3d(0, -2px, 0);
   }
+
+.screens {
+    justify-content: center;
+    border-top: 2.5px solid #f3f3f3;
+    border-bottom: 2.5px solid #f3f3f3;
+    display: flex;
+}
 
 .our-team {
   display: flex;
@@ -142,7 +144,12 @@ select {
     .title-first h1 {
         margin-top: 1rem;
     }
-  
+
+    .screen-image {
+        width: 20%;
+        margin: 1rem;
+    }
+
     .bio-card {
         flex-direction: column;
     }
@@ -156,17 +163,24 @@ select {
     .title-container {
         margin-top: 2rem;
     }
+    .title-first h1 {
+        margin-left: .5rem;
+    }
 }
 @media (min-width: 768px) {
     .home {
         background-size: contain;
     }
     .title-container {
-        margin-top: 4rem;
+        margin-top: 2rem;
     }
-    .bio-card {
-        flex-direction: column;
-        display: inline-flex;
+    .title-first h1 {
+        margin-left: 2rem;
+    }
+  
+    .screen-image {
+        width: 15%;
+        margin: 1.5rem;
     }
 
     .card {
@@ -189,14 +203,20 @@ select {
     }
 
     .title-first h1 {
-        margin-right: 15rem;
+        margin-right: 11rem;
         margin-left: 1.5rem;
         margin-top: 6rem;
     }
 
     .title-container {
-        margin-top: 4.5rem;
+        margin-top: 3rem;
     }
+
+    .screen-image {
+        width: 15%;
+        margin: 2rem;
+    }
+  
     .home {
         background-size: cover;
     }
@@ -217,6 +237,11 @@ select {
 
 
 @media (min-width: 1200px) {
+    .title-first h1 {
+        margin-right: 8rem;
+        margin-left: 2rem;
+    }
+
     .home {
         background-size: contain;
     }

@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavBar from './NavBar';
 import Prompts from './prompts';
 import Home from './home';
-import Footer from './footer'
+import Footer from './footer';
+import About from './about';
 
 export default function App() {
 
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/prompts" element={<Prompts title="List of Prompts"/>} />
         <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
     </Router>

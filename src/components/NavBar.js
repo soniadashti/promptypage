@@ -59,6 +59,15 @@ function NavBar(props) {
                 Prompts
               </Link>
             </li>
+            <li className="nav-item" style={{ display: "inline-block" }}>
+              <Link
+                to="/about"
+                className="nav-link nav-button"
+                onClick={handleClick}
+              >
+                Our Team
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

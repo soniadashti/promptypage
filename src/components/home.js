@@ -8,49 +8,46 @@ export default function Home() {
         <div className="home">
           <header className="welcome-header">
             <div className="title-first">
-            <img src={`${process.env.PUBLIC_URL}/websiteimg/homeimage.png`} alt="Home" className="home-image"/>
-            <h1>Prompty</h1>
+            <img src={`${process.env.PUBLIC_URL}/websiteimg/family.jpeg`} alt="Home" className="home-image"/>
             </div>
             <div className="title-container">
-              <h2>Break the Inter-generational Gap in Your Long Distance Family</h2>
-              <p>The only mobile application that gives you and your family chat prompts to get to know one</p>
+              <h2><strong>Never</strong> Be at a Loss for Words with Your Long Distance Family</h2>
+              <div className="flex-container">
+              <p>The only mobile application that gives you and your family chat prompts to get to know one another</p>
+              <img src={`${process.env.PUBLIC_URL}/websiteimg/mockup1.png`} alt="Home" className="home-image"/>
+              </div>
             </div>
           </header>
+          <div className="overview">
+            <h2>Overview</h2>
           <div className="screens">
             <img src={`${process.env.PUBLIC_URL}/websiteimg/one.png`} alt="screen" className="screen-image"/>
             <img src={`${process.env.PUBLIC_URL}/websiteimg/two.png`} alt="screen" className="screen-image"/>
             <img src={`${process.env.PUBLIC_URL}/websiteimg/three.png`} alt="screen" className="screen-image"/>
           </div>
-          <div className="overview">
-            <h2>Overview</h2>
-            <p className="mission">Problem Statement</p>
-            <p>Our mission is to bridge inter-generational gaps for distanced families. We found that talking to distanced
+          <div className="features">
+            <div className="one">
+              <h3>Prompted Conversations</h3>
+              <p>You are provided a randomly generated prompt in your one-on-one chat with your family member. This takes the
+                pressure of trying to find a good conversation topic away from you.</p>
+            </div>
+            <div className="two">
+              <h3>Hidden Answers</h3>
+              <p>When you receive a prompt, you are unable to see the others response until you answer the prompt as well. This was done
+                to encourage both users to respond to the chat prompt.
+              </p>
+            </div>
+            <div className="three">
+              <h3>Designed for All Aged Audiences</h3>
+              <p>As your family can range in all ages, we have made our application image focused so it is easy to navigate through
+                regardless of your age.
+              </p>
+            </div>
+          </div>
+          <p>Our mission is to bridge inter-generational gaps for distanced families. We found that talking to distanced
               family members was challenging for many individuals as they did not know what to speak about. This led us to Prompty,
               an app that gives you simple and easy prompted conversation topics for all ages. These prompts can give you more to talk
               about with your family and get to know them past the surface level.</p>
-          </div>
-          <h2 className="text-center mt-4">Our Team</h2>
-          <div className="our-team">
-          <div className="image-container">
-            <img src="websiteimg/Neil.jpg" alt="Neil" />
-            <p>Neil Dadlani</p>
-          </div>
-          <div className="image-container">
-            <img src="websiteimg/Sonia.jpg" alt="Sonia" />
-            <p>Sonia Dashti</p>
-          </div>
-          <div className="image-container">
-            <img src="websiteimg/Travon.jpg" alt="Travon" />
-            <p>Travon Dao</p>
-          </div>
-          <div className="image-container">
-            <img src="websiteimg/Saba.png" alt="Saba" />
-            <p>Saba Tabatabai</p>
-          </div>
-          <div className="image-container">
-            <img src="websiteimg/Jacob.jpg" alt="Jacob" />
-            <p>Jacob </p>
-          </div>
           </div>
         </div>
       </main>

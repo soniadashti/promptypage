@@ -20,6 +20,7 @@ function NavBar(props) {
                 className="nav-link nav-button"
                 onClick={handleClick}
               >
+              <img src={`${process.env.PUBLIC_URL}/websiteimg/homeimage.png`} alt="Home"style={{ width: "50px", height: "50px", marginRight: "10px", borderRadius: "50%"}}/>
                 Prompty
               </Link>
             </li>

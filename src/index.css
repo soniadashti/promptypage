@@ -113,14 +113,12 @@ html {
 }
 
 .features {
-    display: flex;
     text-align: center;
     justify-content: center;
 }
 
 .one, .two, .three {
     padding: 0 2rem;
-    width: 50%;
     text-align: center;
     background-color: #E2E6F3;
     margin: 3rem;
@@ -132,13 +130,18 @@ html {
     margin-bottom: 1.5rem;
 }
 
+.mission {
+    margin: 0 5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
 .demo-header {
     border-bottom: 1px solid #f3f3f3;
 }
 
 /* About */
 .about {
-    background-color: #E2E6F3;
+    background-color: #F4F8FB;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -173,8 +176,8 @@ html {
 }
 
 .card {
-    background-color: #E2E6F3;
-    border-color: #f3f3f3;
+    background-color: #F4F8FB;
+    border-color: #F4F8FB;
     padding: .5rem;
 }
 
@@ -217,6 +220,14 @@ select {
 @media (min-width: 768px) {
     .home {
         background-size: contain;
+    }
+
+    .features {
+        display: flex;
+    }
+    
+    .one, .two, .three {
+        width: 50%;
     }
     
     .screen-image {

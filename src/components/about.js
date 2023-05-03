@@ -4,31 +4,31 @@ import { Link } from 'react-router-dom';
 export default function About() {
     return (
     <div className="about">
-        <h1 className="text-center mt-4">Our Team</h1>
+        <h1 className="text-center mt-4">Team Lingua</h1>
         <div className="our-team">
         <div className="image-container">
         <img src="websiteimg/Neil.jpg" alt="Neil" />
-        <p>Neil Dadlani</p>
+        <h4>Neil Dadlani</h4>
         <p>Project Manager</p>
         </div>
         <div className="image-container">
         <img src="websiteimg/Sonia.jpg" alt="Sonia" />
-        <p>Sonia Dashti</p>
+        <h4>Sonia Dashti</h4>
         <p>Product Manager & Designer</p>
         </div>
         <div className="image-container">
         <img src="websiteimg/Travon.jpg" alt="Travon" />
-        <p>Travon Dao</p>
+        <h4>Travon Dao</h4>
         <p>Full-Stack Developer</p>
         </div>
         <div className="image-container">
         <img src="websiteimg/Saba.png" alt="Saba" />
-        <p>Saba Tabatabai</p>
+        <h4>Saba Tabatabai</h4>
         <p>UI/UX Designer</p>
         </div>
         <div className="image-container">
         <img src="websiteimg/Jacob.jpg" alt="Jacob" />
-        <p>Jacob </p>
+        <h4>Jacob </h4>
         <p>Front-End Developer</p>
         </div>
         </div>

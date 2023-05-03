@@ -29,7 +29,7 @@ export default function Home() {
           <div className="features">
             <div className="one">
               <h4>Prompted Conversations</h4>
-              <p>You are provided a randomly generated prompt in your one-on-one chat with your family member. This takes the
+              <p>You may generate prompts in your one-on-one chat with your family member. This takes the
                 pressure of trying to find a good conversation topic away from you.</p>
             </div>
             <div className="two">
@@ -45,14 +45,13 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <p>Our mission is to bridge inter-generational gaps for distanced families. We found that talking to distant
-              family members was challenging for many individuals as they did not know what to speak about. This led us to Prompty,
-              an app that gives you simple and easy prompted conversation topics for all ages. These prompts can give you more to talk
-              about with your family and help you get to know one another past the surface level.</p>
+          <p className="mission">Our <strong>mission</strong> is to bridge the inter-generational gap for distanced families. We found that talking to distant
+              family members was challenging for many individuals as they did not know what to speak about. This led us to creating an app that 
+              gives you simple and easy prompts you can talk about and help you get to know one another past the surface level.</p>
           <div className="demo">
           <h3 className="demo-header">Demo Video</h3>
           </div>
-          <h4>Project Status</h4>
+          <h3>Project Status</h3>
           <p>Effective June 9th, we will open source our capstone project for future use</p>
           </div>
         </div>

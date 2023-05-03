@@ -1,19 +1,6 @@
 import React, { useRef } from 'react';
 
 export default function Prompts(props) {
-  const fileInputRef = useRef(null);
-  const iframeContainerRef = useRef(null);
-
-  const handleFileUpload = () => {
-    const file = fileInputRef.current.files[0];
-    const url = URL.createObjectURL(file);
-    const iframe = document.createElement('iframe');
-    iframe.src = url;
-    iframe.width = '100%';
-    iframe.height = '500px';
-    iframeContainer.innerHTML = '';
-    iframeContainerRef.current.appendChild(iframe);
-  };
 
   return (
     <div>

@@ -12,7 +12,7 @@ export default function App() {
     <Router>
       <NavBar />
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/promptypage/" element={<Home />} />
         <Route path="/prompts" element={<Prompts title="List of Prompts"/>} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />

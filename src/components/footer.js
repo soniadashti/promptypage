@@ -4,8 +4,7 @@ export default function Footer() {
     return (
   <div>
       <footer className="footer">
-        <p>Team Lingua</p>
-        <p>© 2022 iSchool</p>
+        <p>© 2023 iSchool Capstone</p>
       </footer>
   </div>
   );

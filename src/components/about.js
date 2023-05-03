@@ -28,7 +28,7 @@ export default function About() {
         </div>
         <div className="image-container">
         <img src="websiteimg/Jacob.jpg" alt="Jacob" />
-        <h4>Jacob </h4>
+        <h4>Jacob Hitchcock</h4>
         <p>Front-End Developer</p>
         </div>
         </div>

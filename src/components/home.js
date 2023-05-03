@@ -30,18 +30,16 @@ export default function Home() {
             <div className="one">
               <h4>Prompted Conversations</h4>
               <p>You may generate prompts in your one-on-one chat with your family member. This takes the
-                pressure of trying to find a good conversation topic away from you.</p>
+                pressure of trying to find a good conversation topic away from you</p>
             </div>
             <div className="two">
-              <h4>Hidden Answers</h4>
-              <p>When you receive a prompt, you are unable to see the others response until you answer the prompt as well. This was done
-                to encourage both users to respond to the chat prompt.
-              </p>
+              <h4>Multimedia Format</h4>
+              <p>Prompts can be answered with texts or images</p>
             </div>
             <div className="three">
               <h4>Accessibility</h4>
               <p>As your family can range in all ages, we have devoted our time in designing our application for all aged audiences. It is simple and image focused so it is easy to navigate through
-                regardless of your age. 
+                regardless of your age
               </p>
             </div>
           </div>

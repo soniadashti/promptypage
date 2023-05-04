@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import NavBar from './NavBar';
 import Prompts from './prompts';
 import Home from './home';
@@ -12,7 +12,7 @@ export default function App() {
     <Router>
       <NavBar />
       <Routes>
-        <Route exact path="/promptypage/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/prompts" element={<Prompts title="List of Prompts"/>} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />

@@ -49,10 +49,11 @@ export default function Home() {
               family members was challenging for many individuals as they did not know what to speak about. This led us to creating an app that 
               gives you simple and easy prompts you can talk about and help you get to know one another past the surface level.</p>
           <div className="demo">
-          <h3 className="demo-header">Demo Video</h3>
+            <h3 className="demo-header">Demo Video</h3>
+            <iframe src="https://www.youtube.com/embed/rQ29PIMdBf8" frameborder="0" allowfullscreen></iframe>
           </div>
-          <h3>Project Status</h3>
-          <p>Effective June 9th, we will open source our capstone project for future use</p>
+          <h3 className="status">Project Status</h3>
+          <p>Effective June 9th, we will open source our capstone project</p>
           </div>
         </div>
       </main>

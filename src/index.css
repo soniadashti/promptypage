@@ -139,6 +139,20 @@ html {
     border-bottom: 1px solid #f3f3f3;
 }
 
+.demo {
+    margin-bottom: 2rem;
+}
+
+.demo iframe {
+    margin-top: 1rem;
+}
+
+.status {
+    border-bottom: 1px solid #f3f3f3;
+}
+
+
+
 /* About */
 .about {
     background-color: #F4F8FB;
@@ -209,11 +223,15 @@ select {
     }
 
     .title-container img {
-        width: 45%;
+        width: 40%;
     }
     .screen-image {
         width: 20%;
         margin: 1rem;
+    }
+    iframe {
+        width: 370px;
+        height: 300px;
     }
 }
 
@@ -250,6 +268,11 @@ select {
 
     .card-body {
         margin: 2rem;
+    }
+
+    iframe {
+        width: 800px;
+        height: 450px;
     }
 }
 

@@ -34,7 +34,9 @@ export default function Home() {
             </div>
             <div className="two">
               <h4>Multimedia Format</h4>
-              <p>Prompts can be answered with texts or images</p>
+              <p>Prompts can be answered with texts or images as this can address potential language barriers
+                and allow for conversation outside of text
+              </p>
             </div>
             <div className="three">
               <h4>Accessibility</h4>

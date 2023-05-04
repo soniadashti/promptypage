@@ -84,8 +84,8 @@ html {
 .title-container img {
     position: absolute;
     right: -15px;
-    width: 27%;
     float: right;
+    width: 27%;
     margin-top: .5rem;
 }
 
@@ -208,6 +208,9 @@ select {
         width: 100%;
     }
 
+    .title-container img {
+        width: 45%;
+    }
     .screen-image {
         width: 20%;
         margin: 1rem;
@@ -215,6 +218,9 @@ select {
 }
 
 @media (min-width: 580px) {
+    .title-container img {
+        width: 30%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -235,6 +241,9 @@ select {
         margin: 1.5rem;
     }
 
+    .title-container img {
+        width: 27%;
+    }
     .card {
         margin: 4rem;  
     }

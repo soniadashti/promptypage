@@ -83,7 +83,7 @@ html {
 
 .title-container img {
     position: absolute;
-    right: -15px;
+    right: -2px;
     float: right;
     width: 27%;
     margin-top: .5rem;
@@ -123,7 +123,6 @@ html {
     background-color: #E2E6F3;
     margin: 3rem;
     padding: 1rem;
-    border-radius: 5%;
 }
 
 .features h4 {
@@ -151,7 +150,9 @@ html {
     border-bottom: 1px solid #f3f3f3;
 }
 
-
+.pstatus {
+    margin: 1rem;
+}
 
 /* About */
 .about {
@@ -255,7 +256,7 @@ select {
     }
     
     .screen-image {
-        width: 15%;
+        width: 20%;
         margin: 1.5rem;
     }
 
@@ -287,6 +288,11 @@ select {
   
     .home {
         background-size: cover;
+    }
+
+    .screen-image {
+        width: 22%;
+        margin: 1rem;
     }
 }
 

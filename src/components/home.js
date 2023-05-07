@@ -53,7 +53,7 @@ export default function Home() {
             <iframe src="https://www.youtube.com/embed/rQ29PIMdBf8" frameborder="0" allowfullscreen></iframe>
           </div>
           <h3 className="status">Project Status</h3>
-          <p>Effective June 9th, we will open source our capstone project</p>
+          <p className="pstatus">Effective June 9th, we will open source our capstone project</p>
           </div>
         </div>
       </main>

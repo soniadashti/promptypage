@@ -7,6 +7,7 @@ export default function Prompts(props) {
       <main>
         <header className="checklist-header text-center">
           <h1>{props.title}</h1>
+          <h5 className="desc">Below you may see a list of prompts you may generate in your conversations on Prompty</h5>
         </header>
         <div className="card">
           <div className="card-body">

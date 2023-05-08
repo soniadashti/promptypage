@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function About() {
     return (
     <div className="about">
-        <h1 className="text-center mt-4">Team Lingua</h1>
+        <h1 className="text-center mt-4">Our Team</h1>
         <div className="our-team">
         <div className="image-container">
         <img src={`${process.env.PUBLIC_URL}/websiteimg/Neil.jpg`} alt="Neil" />
@@ -32,6 +32,7 @@ export default function About() {
         <p>Front-End Developer</p>
         </div>
         </div>
+        <p className="aboutText text-center mt-4">We are a student group at the University of Washington iSchool who have designed Prompty for our capstone project</p>
     </div>
     );
 }

@@ -50,7 +50,7 @@ export default function Home() {
               gives you simple and easy prompts you can talk about and help you get to know one another past the surface level.</p>
           <div className="demo">
             <h3 className="demo-header">Demo Video</h3>
-            <iframe src="https://www.youtube.com/embed/rQ29PIMdBf8" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/vGpVd9jyVBw" frameborder="0" allowfullscreen></iframe>
           </div>
           <h3 className="status">Project Status</h3>
           <p className="pstatus">Effective June 9th, we will open source <a href="https://github.com/jacob-hitchcock/prompty">Prompty</a></p>

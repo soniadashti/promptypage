@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/promptypage/static/css/main.87316332.css",
-    "main.js": "/promptypage/static/js/main.9e45bfc5.js",
+    "main.js": "/promptypage/static/js/main.16427cd6.js",
     "index.html": "/promptypage/index.html",
     "main.87316332.css.map": "/promptypage/static/css/main.87316332.css.map",
-    "main.9e45bfc5.js.map": "/promptypage/static/js/main.9e45bfc5.js.map"
+    "main.16427cd6.js.map": "/promptypage/static/js/main.16427cd6.js.map"
   },
   "entrypoints": [
     "static/css/main.87316332.css",
-    "static/js/main.9e45bfc5.js"
+    "static/js/main.16427cd6.js"
   ]
 }
